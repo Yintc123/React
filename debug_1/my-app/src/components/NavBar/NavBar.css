@@ -1,0 +1,28 @@
+#navBar {
+    position: fixed;
+    width:100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar__ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navBar__li {
+    font-size: 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+.navBar__a {
+    text-decoration: none;
+}
+
+.navBar__a:hover {
+    cursor: pointer;
+}
