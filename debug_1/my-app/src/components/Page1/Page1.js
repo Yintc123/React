@@ -1,12 +1,14 @@
 import React from "react";
 import "./Page1.css";
 import ImageObj from "../ImageObj/ImageObj";
+import VideoObj from "../VideoObj/VideoObj";
 
 const Page1 = () => {
     return (
-        <div id="Page1">
+        <div id="page1">
             <div className="Page1__container">
                 <ImageObj/>
+                <VideoObj/>
             </div>
         </div>
     )
