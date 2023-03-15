@@ -6,7 +6,7 @@ import VideoObj from "../VideoObj/VideoObj";
 const Page1 = () => {
     return (
         <div id="page1">
-            <div className="Page1__container">
+            <div className="page1__container">
                 <ImageObj/>
                 <VideoObj/>
             </div>

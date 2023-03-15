@@ -1,0 +1,11 @@
+#page1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+
+.page1__container {
+    max-width: 960px;
+}

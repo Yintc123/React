@@ -12,6 +12,6 @@ video.pause interupts the process of loading video.
 ## Dependencies
 此專案使用到的套件
 <ol>
-    <li>react-router-dom@5.2.0：React 的前端路由套件，使專案以 SPA 的形式呈現</li>
+    <li>react-router-dom@5.2.0：React 的前端路由套件，使專案以 SPA 的形式呈現。</li>
 </ol>
 

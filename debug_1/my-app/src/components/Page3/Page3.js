@@ -4,8 +4,8 @@ import ImageObj from "../ImageObj/ImageObj";
 
 const Page3 = () => {
     return (
-        <div id="Page3">
-            <div className="Page1__container">
+        <div id="page3">
+            <div className="page3__container">
                 <ImageObj/>
             </div>
         </div>

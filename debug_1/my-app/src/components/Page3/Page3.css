@@ -1,0 +1,11 @@
+#page3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+
+.page3__container {
+    max-width: 960px;
+}
