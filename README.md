@@ -1,8 +1,8 @@
 # React
 ## Debug_1
 與 video element 相關的 Error
-### Error：Uncaught (in promise) DOMException: The play() request was interrupted by a call to pause().
-### Error：Uncaught (in promise) DOMException: play() failed because the user didn't interact with the document first.
+#### Error：Uncaught (in promise) DOMException: The play() request was interrupted by a call to pause().
+#### Error：Uncaught (in promise) DOMException: play() failed because the user didn't interact with the document first.
 
 ## Tips
 ### 安裝指定版本的套件
