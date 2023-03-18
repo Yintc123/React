@@ -1,0 +1,15 @@
+#description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description__title {
+
+}
+
+.description__content {
+    
+}
