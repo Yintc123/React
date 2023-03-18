@@ -5,8 +5,8 @@ import VideoObj from "../VideoObj/VideoObj";
 
 const Page1 = () => {
 
-    const title = "test";
-    const content = "test";
+    const title = "Error：Uncaught (in promise) DOMException: The play() request was interrupted by a call to pause().";
+    const content = "瀏覽器在 loading 影片資源的時候，被 pause 中斷。";
 
     return (
         <div id="page1">
