@@ -1,4 +1,5 @@
 #description {
+    margin-top: 100px; 
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,9 +8,9 @@
 }
 
 .description__title {
-
+    
 }
 
 .description__content {
-    
+    font-size: 2em;;
 }
