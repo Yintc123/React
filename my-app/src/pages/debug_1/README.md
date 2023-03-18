@@ -8,7 +8,7 @@
 ## BUG_1
 Uncaught (in promise) DOMException: The play() request was interrupted by a call to pause().
 ### Problems：
-當瀏覽器在 loading 影片資源的時候，被 video.pause() 中斷，當執行 video.play() 且幾乎同時執行 video.pause() 即會發生此錯誤。
+當瀏覽器在 loading 影片資源的時候，被 video.pause() 中斷。當執行 video.play() 且幾乎同時執行 video.pause() 即會發生此錯誤。
 ### Solution：
 由於 video.play() 為非同步的函式，等待其回傳 promise 再接著執行 video.pause()。
 ### Reference：
