@@ -9,7 +9,7 @@ const Page3 = () => {
     const content = "自動播放影片或音源未預設靜音。";
 
     const flag = 0; // flag=0，實作 debug；flag=1，實作 error
-    const muted = null; // muted，實作 debug；null，實作 error
+    const muted = false; // true，實作 debug；false，實作 error
 
     return (
         <div id="page3">
