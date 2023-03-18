@@ -2,7 +2,7 @@
 ## Introduction
 與 video element 相關的 Error
 ## Directories
-* Page1 - Debug
+* Page1 - Debug 實作
 * Page2 - Bug_1 實作 
 * Page3 - Bug_2 實作
 ## BUG_1
