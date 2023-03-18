@@ -5,6 +5,12 @@
 * Error：Uncaught (in promise) DOMException: The play() request was interrupted by a call to pause().
 * Error：Uncaught (in promise) DOMException: play() failed because the user didn't interact with the document first.
 
+## Dependencies
+此專案使用到的套件
+<ol>
+    <li>react-router-dom@5.2.0：React 的前端路由套件，使專案以 SPA 的形式呈現。</li>
+</ol>
+
 ## Tips
 ### 安裝指定版本的套件
 使用＂@＂加上指定版本，以 react-router-dom 套件的 v5.2.0 為例：

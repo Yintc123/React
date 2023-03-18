@@ -13,9 +13,3 @@ Uncaught (in promise) DOMException: The play() request was interrupted by a call
     <li>https://bugs.chromium.org/p/chromium/issues/detail?id=593273</li>
 </ol>
 
-## Dependencies
-此專案使用到的套件
-<ol>
-    <li>react-router-dom@5.2.0：React 的前端路由套件，使專案以 SPA 的形式呈現。</li>
-</ol>
-
