@@ -1,10 +1,10 @@
 import React from "react";
-import "./Description";
+import "./Description.css";
 
 const Description = (props) => {
     return (
         <div id="description">
-            <div className="description__title">{props.title}</div>
+            <h1 className="description__title">{props.title}</h1>
             <div className="description__content">{props.content}</div>
         </div>
     )
