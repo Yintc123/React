@@ -1,7 +1,6 @@
 import React from "react";
 import "./Page2.css";
-import ImageObj from "../ImageObj/ImageObj";
-import VideoObj from "../VideoObj/VideoObj";
+import VideoObj from "../../../components/VideoObj/VideoObj";
 
 const Page2 = () => {
     return (

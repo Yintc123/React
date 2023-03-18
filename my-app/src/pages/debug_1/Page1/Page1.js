@@ -1,7 +1,7 @@
 import React from "react";
 import "./Page1.css";
-import Description from "../Description/Description";
-import VideoObj from "../VideoObj/VideoObj";
+import Description from "../../../components/Description/Description";
+import VideoObj from "../../../components/VideoObj/VideoObj";
 
 const Page1 = () => {
 
