@@ -1,6 +1,6 @@
 # React
 ### 安裝指定版本的套件
-以 react-router-dom 套件的 v5.2.0 為例：
+使用＂@＂加上指定版本，以 react-router-dom 套件的 v5.2.0 為例：
 ```
 npm install --save react-router-dom@5.2.0
 ```
