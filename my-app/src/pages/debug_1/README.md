@@ -40,6 +40,7 @@ Uncaught (in promise) DOMException: play() failed because the user didn't intera
 ### Other Reference
 <ol>
     <li>https://html.spec.whatwg.org/multipage/media.html#playing-the-media-resource （media 可使用的函式）</li>
+    <li>https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/november/html5-working-with-media-in-html5 （video 標籤）</li>
 </ol>
 
 ### <a href="https://github.com/Yintc123/React">Home</a>
