@@ -26,7 +26,7 @@ Uncaught (in promise) DOMException: play() failed because the user didn't intera
 將 video element 加上 muted 屬性並且設定為 "muted"。</br>
 自動播放政策（The Autoplay Policy）於 2018 年發布於 Chrome 66 版本，為了改善使用者瀏覽網頁的體驗、減少使用者安裝廣告阻擋器的動機以及減少傳輸資料流量的消耗。自動播放政策主要有以下四點：
 * 預設靜音模式
-* <ol> 允許有聲的自動播放的條件為：
+* <ol>允許有聲的自動播放的條件為：
     <li>使用者曾經與此網站互動過</li>
     <li>使用者曾經於此網站播放有聲影片</li>
     <li>行動裝置的使用者將該網頁加入行動裝置的主介面或是安裝 PWA （響應式網頁應用程式）的電腦使用者</li>
