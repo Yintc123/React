@@ -7,7 +7,6 @@ const Page1 = () => {
     return (
         <div id="page1">
             <div className="page1__container">
-                <ImageObj/>
                 <VideoObj/>
             </div>
         </div>
