@@ -9,7 +9,7 @@ const Page2 = () => {
     const content = "瀏覽器在 loading 影片資源的時候，被 videoElem.pause() 中斷。";
 
     const flag = 1; // flag=0，實作 debug；flag=1，實作 error
-    const muted = true; // muted，實作 debug；null，實作 error
+    const muted = true; // true，實作 debug；false，實作 error
 
     return (
         <div id="page2">
