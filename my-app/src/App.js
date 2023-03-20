@@ -9,26 +9,28 @@ import Page3 from "./pages/debug_1/Page3/Page3";
 import ReactIndex from "./components/ReactIndex/ReactIndex.js";
 
 function App() {
+  const repoName = "/React"
+
   return (
     <div className="App">
       <NavBar/>
       <Router>
         <Switch>
           
-          <Route exact path="/">
+          <Route exact path="/React/">
             <ReactIndex />
           </Route>
 
-          <Route exact path="/page1">
+          <Route exact path="/React/page1">
             <Page1 />
           </Route>
 
-          <Route exact path="/page2">
+          <Route exact path="/React/page2">
             <Page2 />
           </Route>
 
 
-          <Route exact path="/page3">
+          <Route exact path="/React/page3">
             <Page3 />
           </Route>
 
