@@ -34,6 +34,10 @@ Example：
 2. F12 開啟開發者工具並且於主控台輸入：window.location.replace("https://example.com/")
 3. 網頁導轉至：https://example.com/
 4. 回上一頁：https://google.com/
+### window.location.search：網址的 Query String
+Example：
+1. 目前頁面：https://example.com/?test=test
+2. window.location.search：?test=test
 
 ### Reference
 <ol>
