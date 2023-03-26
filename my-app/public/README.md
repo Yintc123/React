@@ -26,7 +26,7 @@ GitHub 的 Server 收到導向其他路徑的 request（如：https://github.com
 3. index.html 使用 window.history.replaceState() 將網址修改為目標網址並且渲染畫面
 
 
-註：在 SPA 的專案中，會於 Web Server 設置請求所有路徑皆回傳 index.html（如下 Nginx 的 URI 匹配設置）
+註：在 SPA 的專案中，會於 Web Server 設置所有請求路徑皆回傳 index.html（如下 Nginx 的 URI 匹配設置）
 ```nginx file
 location / {
     root   /usr/share/nginx/html;
