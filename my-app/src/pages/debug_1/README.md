@@ -1,6 +1,6 @@
 # Debug_1
 ## Introduction
-與 video element 相關的 Error
+與 video element 相關的 Error。
 ## Directories
 * Page1 - Debug 實作
 * Page2 - Bug_1 實作 
