@@ -12,12 +12,6 @@
 ## Steps
 1. 將專案打包至 build 資料夾：npm run build
 2. 將專案部署至 Github Pages：npm run deploy
-## Reference
-<ol>
-    <li>https://github.com/rafgraph/spa-github-pages</li>
-    <li>https://timtnlee.me/post/github-pages-spa/</li>
-    <li>https://ithelp.ithome.com.tw/articles/10228423</li>
-</ol>
 
 ## Principle
 GitHub 的 Server 收到導向其他路徑的 request（如：https://github.com/Yintc123/React/page1 ）時，由於找不到對應的資源，所以回傳 404.html，而 404.html 的 JavaScript 將網址導回 index.html 並以 Query String 的方式區分不同的路徑。
@@ -34,6 +28,14 @@ location / {
     try_files $uri $uri/ /index.html; # 找不到資源回傳 index.html
 }
 ```
+
+## Reference
+<ol>
+    <li>https://github.com/rafgraph/spa-github-pages</li>
+    <li>https://timtnlee.me/post/github-pages-spa/</li>
+    <li>https://ithelp.ithome.com.tw/articles/10228423</li>
+</ol>
+
 ## Tips
 ### 網頁轉址：
 #### window.location.assign(assigned_new_URL)：網頁轉至指派的網址。
