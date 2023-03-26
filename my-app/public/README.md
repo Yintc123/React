@@ -56,13 +56,13 @@ Example：
 2. F12 開啟開發者工具並且於主控台輸入：window.location.replace("https://example.com/")
 3. 網頁導轉至：https://example.com/
 4. 回上一頁：https://google.com/
-### window.location.pathname：網址的路徑名稱。
+#### window.location.pathname：網址的路徑名稱。
 Example（以此網頁為例 https://yintc123.github.io/React/?/page1 ）：
 - pathname：/React/
-### window.location.search：網址的 Query String。
+#### window.location.search：網址的 Query String。
 Example（以此網頁為例 https://yintc123.github.io/React/?/page1 ）：
 - search：?/page1
-### window.history.replaceState(state, title, new_URL)：不送出 request 的狀況下，修改 URL。
+#### window.history.replaceState(state, title, new_URL)：不送出 request 的狀況下，修改 URL。
 Example（以此網頁為例 https://yintc123.github.io/React/?/page1 ）：
 1. 404.html 將網頁導轉至：https://yintc123.github.io/React/?/page1
 2. index.html 將網址修改為：https://yintc123.github.io/React/page1
