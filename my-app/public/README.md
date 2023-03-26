@@ -16,8 +16,24 @@
 <ol>
     <li>https://github.com/rafgraph/spa-github-pages</li>
     <li>https://timtnlee.me/post/github-pages-spa/</li>
+    <li>https://ithelp.ithome.com.tw/articles/10228423</li>
 </ol>
 
+## Principle
+GitHub 的 Server 收到導向其他路徑的 request（如：https://github.com/Yintc123/React/page1 ）時，由於找不到對應的資源，所以回傳 404.html，而 404.html 的 JavaScript 將網址導回 index.html 並以 Query String 的方式區分不同的路徑。
+1. GitHub Server 找不到對應路徑的資源，返回 404.html（如無自訂的 404.html，會返回 GitHub 定義的 404.html）
+2. 自訂的 404.html 將網頁導回 index.html 並將路徑等參數以 Query String 的方式呈現於網址
+3. index.html 使用 window.history.replaceState() 將網址修改為目標網址並且渲染畫面
+
+
+註：在 SPA 的專案中，會於 Web Server 設置請求所有路徑皆回傳 index.html（如下 Nginx 的 URI 匹配設置）
+```nginx file
+location / {
+    root   /usr/share/nginx/html;
+    index  index.html index.htm;
+    try_files $uri $uri/ /index.html; # 找不到資源回傳 index.html
+}
+```
 ## Tips
 ### 網頁轉址：
 #### window.location.assign(assigned_new_URL)：網頁轉至指派的網址。
@@ -35,15 +51,15 @@ Example：
 3. 網頁導轉至：https://example.com/
 4. 回上一頁：https://google.com/
 ### window.location.pathname：網址的路徑名稱。
-Example（以此網頁為例 https://yintc123.github.io/React/?/page3）：
+Example（以此網頁為例 https://yintc123.github.io/React/?/page1）：
 - pathname：/React/
 ### window.location.search：網址的 Query String。
-Example（以此網頁為例 https://yintc123.github.io/React/?/page3）：
-- search：?/page3
+Example（以此網頁為例 https://yintc123.github.io/React/?/page1）：
+- search：?/page1
 ### window.history.replaceState(state, title, new_URL)：不送出 request 的狀況下，修改 URL。
-Example（以此網頁為例 https://yintc123.github.io/React/?/page3）：
-1. 404.html 將網頁導轉至：https://yintc123.github.io/React/?/page3
-2. index.html 將網址修改為：https://yintc123.github.io/React/page3
+Example（以此網頁為例 https://yintc123.github.io/React/?/page1）：
+1. 404.html 將網頁導轉至：https://yintc123.github.io/React/?/page1
+2. index.html 將網址修改為：https://yintc123.github.io/React/page1
 ### Reference
 <ol>
     <li>https://originalix.github.io/2020/05/10/window.location%E7%94%A8%E6%B3%95%E8%AF%A6%E8%A7%A3/</li>
