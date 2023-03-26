@@ -10,8 +10,8 @@
 - 新增一 404.html［<a href="https://github.com/Yintc123/React/blob/main/my-app/public/404.html">Goto</a>］
 
 ## Steps
-1. npm run build（將專案打包至 build 資料夾）
-2. npm run deploy（將專案部署至 Github Pages）
+1. 將專案打包至 build 資料夾：npm run build
+2. 將專案部署至 Github Pages：npm run deploy
 ## Reference
 <ol>
     <li>https://github.com/rafgraph/spa-github-pages</li>
