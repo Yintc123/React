@@ -25,7 +25,7 @@
       var pathSegmentsToKeep = 1; // 使用 github 提供的網址，此值設定為 1
 
       var l = window.location; // 目前網站 URL 的資訊
-      print(l.href)
+      print(`404 l: ${l}`)
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
         l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
