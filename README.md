@@ -18,4 +18,26 @@
     <li>https://timtnlee.me/post/github-pages-spa/</li>
 </ol>
 
+## Tips
+### 網頁轉址：
+#### window.location.assign(assigned_new_URL)：網頁轉至指派的網址。
+Example：
+1. 目前頁面：https://google.com/
+2. 於網址欄輸入：https://youtube.com/
+2. F12 開啟開發者工具並且於主控台輸入：window.location.assign("https://example.com/")
+3. 網頁導轉至：https://example.com/
+4. 回上一頁：https://youtube.com/
+#### window.location.replace(assigned_new_URL)：以指派的網址取代目前網址。
+Example：
+1. 目前頁面：https://google.com/
+2. 於網址欄輸入：https://youtube.com/
+2. F12 開啟開發者工具並且於主控台輸入：window.location.replace("https://example.com/")
+3. 網頁導轉至：https://example.com/
+4. 回上一頁：https://google.com/
+
+### Reference
+<ol>
+    <li>https://originalix.github.io/2020/05/10/window.location%E7%94%A8%E6%B3%95%E8%AF%A6%E8%A7%A3/</li>
+</ol>
+
 ## <a href="https://github.com/Yintc123/React">HOME</a>
