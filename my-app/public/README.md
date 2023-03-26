@@ -14,7 +14,7 @@
 2. 將專案部署至 Github Pages：npm run deploy
 
 ## Principle
-GitHub 的 Server 收到導向其他路徑的 request（如：https://github.com/Yintc123/React/page1 ）時，由於找不到對應的資源，所以回傳 404.html，而 404.html 的 JavaScript 將網址導回 index.html 並以 Query String 的方式區分不同的路徑。
+運作原理：自訂的 404.html 將網址導回 index.html 並且 index.html 將網址修改為目標網址
 1. GitHub Server 找不到對應路徑的資源，返回 404.html（如無自訂的 404.html，會返回 GitHub 定義的 404.html）
 2. 自訂的 404.html 將網頁導回 index.html 並將路徑等參數以 Query String 的方式呈現於網址
 3. index.html 使用 window.history.replaceState() 將網址修改為目標網址並且渲染畫面
