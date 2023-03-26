@@ -6,10 +6,10 @@
 ![homepage](../pictures/gh-pages/homepage.jpg)
 - package.json 設置 "scripts"：加入一指令 deploy（如下圖）</br>
 ![scripts](../pictures/gh-pages/scripts.jpg)
-- 於 index.html 的 head 標籤設置一段 JavaScript（如下圖）
-- 新增一 404.html
+- 於 index.html 的 head 標籤設置一段 JavaScript［<a href="https://github.com/Yintc123/React/blob/main/my-app/public/index.html">Goto</a>］
+- 新增一 404.html［<a href="https://github.com/Yintc123/React/blob/main/my-app/public/404.html">Goto</a>］
 
-## steps
+## Steps
 1. npm run build（將專案打包至 build 資料夾）
 2. npm run deploy（將專案部署至 Github Pages）
 ## Reference
