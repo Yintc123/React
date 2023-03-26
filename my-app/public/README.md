@@ -13,8 +13,9 @@
 1. 將專案打包至 build 資料夾：npm run build
 2. 將專案部署至 Github Pages：npm run deploy
 
-## Principle
-運作原理：自訂的 404.html 將網址導回 index.html 並且 index.html 將網址修改為目標網址
+## Problem
+問題：由於 GitHub Pages 僅支援靜態網站，網址需對應到真實路徑，故 SPA 的專案請求其他路徑的頁面會回傳 404.html。</br>
+解決：自訂的 404.html 將網址導回 index.html 並且 index.html 將網址修改為目標網址
 1. GitHub Server 找不到對應路徑的資源，返回 404.html（如無自訂的 404.html，會返回 GitHub 定義的 404.html）
 2. 自訂的 404.html 將網頁導回 index.html 並將路徑等參數以 Query String 的方式呈現於網址
 3. index.html 使用 window.history.replaceState() 將網址修改為目標網址並且渲染畫面
@@ -34,6 +35,7 @@ location / {
     <li>https://github.com/rafgraph/spa-github-pages</li>
     <li>https://timtnlee.me/post/github-pages-spa/</li>
     <li>https://ithelp.ithome.com.tw/articles/10228423</li>
+    <li>https://leader.js.cool/basic/knowledge/github-pages-spa-router/</li>
 </ol>
 
 ## Tips
