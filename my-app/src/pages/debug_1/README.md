@@ -44,4 +44,4 @@ Uncaught (in promise) DOMException: play() failed because the user didn't intera
     <li>https://learn.microsoft.com/en-us/archive/msdn-magazine/2011/november/html5-working-with-media-in-html5 （video 標籤）</li>
 </ol>
 
-### <a href="https://github.com/Yintc123/React">Home</a>
+### <a href="https://github.com/Yintc123/React">HOME</a>
