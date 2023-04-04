@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // import logo from './logo.svg';
 import './App.css';
 import NavBar from "./components/NavBar/NavBar";
