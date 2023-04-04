@@ -30,7 +30,7 @@ npm install --save react-router-dom@5.2.0
     <li>https://stackoverflow.com/questions/19578796/what-is-the-save-option-for-npm-install </li>
 </ol>
 
-### bootstrap
+### Bootstrap
 基於 HTML, CSS 和 JavaScript 並用於網站和網路應用程式開發的開源前端開發工具，提供多樣且預先建立的元件使開發者能快速開發響應式網頁（RWD，Responsive Web Design）。
 #### react-boostrap
 整合 React 和 Bootstrap 的前端開發工具。
