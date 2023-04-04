@@ -12,5 +12,9 @@
 } */
 
 .description__content {
-    font-size: 2em;;
+    font-size: 1.5em;
+}
+
+.description__note {
+    font-size: 1em;
 }

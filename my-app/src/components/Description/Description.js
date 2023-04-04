@@ -4,8 +4,9 @@ import "./Description.css";
 const Description = (props) => {
     return (
         <div id="description">
-            <h1 className="description__title">{props.title}</h1>
+            <h3 className="description__title">{props.title}</h3>
             <div className="description__content">{props.content}</div>
+            <p className="description__note">{props.note}</p>
         </div>
     )
 }
