@@ -9,6 +9,11 @@
     z-index:10000;
 }
 
+#navBar .dropdown-menu {
+    --bs-dropdown-min-width: 0rem;
+    padding: 5px;
+}
+
 .navBar__ul {
     display: flex;
     align-items: center;
