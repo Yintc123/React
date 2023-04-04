@@ -34,7 +34,7 @@ npm install --save react-router-dom@5.2.0
 基於 HTML, CSS 和 JavaScript 並用於網站和網路應用程式開發的開源前端開發工具，提供多樣且預先建立的元件使開發者能快速開發響應式網頁（RWD，Responsive Web Design）。
 #### react-bootstrap
 整合 React 和 Bootstrap 的前端開發工具。
-- 於<a href="https://react-bootstrap.github.io/getting-started/introduction/" target="_blank">官網</a>尋找合適的元件
+- 於<a href="https://react-bootstrap.github.io/getting-started/introduction/">官網</a>尋找合適的元件
 - 於 JS 引入元件的 CSS
 ```JavaScript
 import 'bootstrap/dist/css/bootstrap.min.css';
