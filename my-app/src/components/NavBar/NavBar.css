@@ -5,6 +5,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* z-index 的值越大，元件會於越上層 */
+    z-index:10000;
 }
 
 .navBar__ul {
