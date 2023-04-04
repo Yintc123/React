@@ -1,6 +1,7 @@
 # React
 紀錄開發 React 專案遇到的問題以及使用的套件。
 ## Debug
+React 專案開發遇到的問題。
 ### Debug_1
 與 video element 相關的 Error
 * Error：Uncaught (in promise) DOMException: The play() request was interrupted by a call to pause().
