@@ -11,9 +11,9 @@ Path：<a href="https://github.com/Yintc123/React/tree/main/my-app/src/pages/deb
 此專案使用到的套件
 <ol>
     <li>react-router-dom@5.2.0：React 的前端路由套件，使專案以 SPA 的形式呈現。</li>
-    <li>gh-pages：搭配 GitHub Page 將前端專案於 GitHub 上線。［<a href=https://github.com/Yintc123/React/tree/main/my-app/public>Goto</a>］</li>
+    <li>gh-pages：搭配 GitHub Page 將前端專案於 GitHub 上線。［<a href="https://github.com/Yintc123/React/tree/main/my-app/public">Goto</a>］</li>
+    <li>bootstrap：網站和網路應用程式開發的開源前端開發工具。［<a href="https://github.com/Yintc123/React#bootstrap">Goto</a>］</li>
     <li>react-bootstrap：整合 React 和 Bootstrap 的前端開發工具。</li>
-    <li>bootstrap：網站和網路應用程式開發的開源前端開發工具。</li>
 </ol>
 
 ## Tips
