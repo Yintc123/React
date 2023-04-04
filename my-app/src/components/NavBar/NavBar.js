@@ -1,6 +1,6 @@
 import React from "react";
 
-import Dropdown from "../Dropdown/Dropdown";
+import DropdownComp from "../DropdownComp/DropdownComp";
 import "./NavBar.css";
 
 const NavBar = () => {
