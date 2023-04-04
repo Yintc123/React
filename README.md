@@ -12,7 +12,7 @@ Path：<a href="https://github.com/Yintc123/React/tree/main/my-app/src/pages/deb
 <ol>
     <li>react-router-dom@5.2.0：React 的前端路由套件，使專案以 SPA 的形式呈現。</li>
     <li>gh-pages：搭配 GitHub Page 將前端專案於 GitHub 上線。［<a href=https://github.com/Yintc123/React/tree/main/my-app/public>Goto</a>］</li>
-    <li>react-bootstrap：</li>
+    <li>react-bootstrap：整合 React 和 Bootstrap 的前端開發工具。</li>
     <li>bootstrap：網站和網路應用程式開發的開源前端開發工具。</li>
 </ol>
 
@@ -36,12 +36,6 @@ npm install --save react-router-dom@5.2.0
 <ol>
     <li>https://getbootstrap.com/docs/5.3/getting-started/introduction/</li>
     <li>https://tw.alphacamp.co/blog/bootstrap-4-introduction</li>
-</ol>
-
-### react-bootstrap
-
-#### Reference
-<ol>
-    <li>https://react-bootstrap.github.io/getting-started/introduction/</li>
-    <li>https://ithelp.ithome.com.tw/articles/10252457</li>
+    <li>https://react-bootstrap.github.io/getting-started/introduction/ （react-bootstrap）</li>
+    <li>https://ithelp.ithome.com.tw/articles/10252457 （react-bootstrap）</li>
 </ol>
