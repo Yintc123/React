@@ -1,4 +1,5 @@
 # React
+紀錄開發 React 專案遇到的問題以及使用的套件。
 ## Debug
 ### Debug_1
 與 video element 相關的 Error
