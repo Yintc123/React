@@ -35,7 +35,7 @@ npm install --save react-router-dom@5.2.0
 #### react-bootstrap
 整合 React 和 Bootstrap 的前端開發工具。
 - 於<a href="https://react-bootstrap.github.io/getting-started/introduction/">官網</a>尋找合適的元件
-- 於 JS 引入元件的 CSS
+- 於 JS 引入 bootstrap 的 CSS 檔
 ```JavaScript
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
