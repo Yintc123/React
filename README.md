@@ -8,7 +8,7 @@
 Path：<a href="https://github.com/Yintc123/React/tree/main/my-app/src/pages/debug_1">./my-app/src/pages/debug_1</a>
 
 ## Dependencies
-此專案使用到的套件
+此專案使用到的套件：
 <ol>
     <li>react-router-dom@5.2.0：React 的前端路由套件，使專案以 SPA 的形式呈現。</li>
     <li>gh-pages：搭配 GitHub Page 將前端專案於 GitHub 上線。（<a href="https://github.com/Yintc123/React/tree/main/my-app/public">Goto</a>）</li>
