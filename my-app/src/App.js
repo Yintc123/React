@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import NavBar from "./components/NavBar/NavBar";
 import Page1 from "./pages/debug_1/Page1/Page1";
 import Page2 from "./pages/debug_1/Page2/Page2";
@@ -11,10 +11,10 @@ import Page3 from "./pages/debug_1/Page3/Page3";
 import ReactIndex from "./components/ReactIndex/ReactIndex.js";
 
 function App() {
-  const repoName = "/React"
+  const repoName = "/React";
 
   return (
-    <div className="App">
+    <div className="App1">
       <NavBar/>
       <Router>
         <Switch>
