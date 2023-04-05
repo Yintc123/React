@@ -37,7 +37,7 @@ Uncaught (in promise) DOMException: play() failed because the user didn't intera
     <li>https://developer.chrome.com/blog/autoplay/</li>
 </ol>
 
-### Other Reference
+## Other Reference
 <ol>
     <li>https://html.spec.whatwg.org/multipage/media.html#playing-the-media-resource （media 可使用的函式）</li>
     <li>https://www.w3schools.com/tags/tag_video.asp （video 標籤）</li>
