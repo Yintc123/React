@@ -1,7 +1,6 @@
 import React from "react";
 import "./ReactIndex.css"
 import logo from "../../logo.svg";
-import ImageObj from "../ImageObj/ImageObj";
 
 const ReactIndex = () => {
     return (
