@@ -25,12 +25,12 @@ const NavBar = () => {
 
     return (
         <div id="navBar">
-            <Navbar bg="aliceblue" expand="lg">
+            <Navbar bg="aliceblue" expand="md">
                 <Container>
                     <Navbar.Brand href="/React/">HOME</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
+                        <Nav className="me-auto text-left">
                             <NavDropdown title="Learning" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">
