@@ -1,5 +1,4 @@
 # gh-pages
-## Introduction
 此套件可以讓使用者於 GitHub Pages 部署自己的 SPA 專案。
 ## Setup
 - package.json 設置 "homepage"：加入 GitHub Pages 的網址（如下圖）</br>
